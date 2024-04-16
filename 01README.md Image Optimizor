@@ -1,19 +1,11 @@
-Neural Style Transfer with PyTorch
+Fast Neural Style Transfer with TensorFlow
 
-This Jupyter Notebook contains PyTorch implementations of neural style transfer, a technique that combines the style of one image with the content of another. Two different implementations are provided, one using VGG19 as the base model and another using a custom ResNet-based model.
-Usage
+This Jupyter Notebook showcases a TensorFlow implementation of neural style transfer, a technique that merges the style of one image with the content of another. The model used for this implementation is a pre-trained fast neural transfer model sourced from TensorFlow Hub.
 
 Dependencies
+To run this notebook, ensure you have the following dependencies installed:
 
-The notebook requires the following dependencies:
-
-    PyTorch
-    torchvision
-    PIL
-    matplotlib
-
-Pretrained Models
-
-The VGG19 model pretrained on ImageNet is automatically downloaded and used in the VGG19-based implementation.
-
-The neural style transfer code is adapted from various sources and tutorials, which are mentioned within the notebook.
+TensorFlow
+TensorFlow Hub
+Matplotlib
+It is recommended to use Python 3.8 to avoid compatibility issues with the dependencies.
