@@ -3,3 +3,11 @@ This is a short project showcasing my ability to work with Language Models (LLMs
 The purpose of this project is to demonstrate how to generate a customized email using the GPT-2 model. The code utilizes the TFGPT2LMHeadModel and GPT2Tokenizer from the Transformers library.
 
 The user is prompted to enter the research field, professor's name, and their own name. Based on the input, the code generates a personalized email by filling in the template with the provided information. The generated email is then printed.
+
+Update: I've attempted to create an email generator using other LLMs to enhance results, such as Gemma and Huggingface Hub, and unsurprisingly, the outcomes were significantly better.
+
+Here's the link to the huggingface email generator:
+
+https://hf.co/chat/assistant/6628dac22df2ad8975fc881e
+
+
